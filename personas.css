@@ -1,0 +1,44 @@
+.personas
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.persona
+{
+display: flex;
+flex-direction: column;
+}
+
+@media screen and (min-width:0)
+{
+    .personas
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:768px)
+{
+    .personas
+    {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:0px)
+{
+    .persona
+    {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:768px)
+{
+    .persona
+    {
+        margin-bottom: 0;
+    }
+}
